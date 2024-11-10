@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products - Paradise Nursery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart <span id="cart-count">0</span></a>
+        </nav>
+    </header>
+    <div class="product-listing">
+        <div class="product-category">
+            <h2>Category 1</h2>
+            <div class="product">
+                <img src="plant1.jpg" alt="Plant 1">
+                <h3>Plant 1</h3>
+                <p>Price: $10</p>
+                <button onclick="addToCart('Plant 1', 10)">Add to Cart</button>
+            </div>
+            <!-- Add more products similarly -->
+        </div>
+        <!-- Add more categories similarly -->
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
